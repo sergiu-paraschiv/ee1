@@ -4,6 +4,8 @@
     "lodash": "~2.4.1",
     "extend.js": "https://github.com/searls/extend.js/releases/download/0.1.0/extend.js",
     "angular": "~1.2.16",
-    "angular-ui-router": "~0.2.10"
+    "angular-ui-router": "~0.2.10",
+    "fuse": "~1.1.0",
+    "angular-virtual-scroll": "~0.6.0"
   }
 }

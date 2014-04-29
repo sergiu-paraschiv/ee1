@@ -1,1 +1,41 @@
-Hello World!
+<p>
+    <input type="text" ng-model="query.title" placeholder="Nume" />
+</p>
+
+<p>
+    <label>
+        <span>Judet</span>
+        <select ng-model="query.county" ng-options="county.name for county in meta.counties">
+            <option value="" selected></option>
+        </select>
+    </label>
+</p>
+
+<p>
+    <label>
+        <span>Oras</span>
+        <select ng-model="query.city" ng-options="city.name for city in query.county.children">
+            <option value="" selected></option>
+        </select>
+    </label>
+</p>
+
+<p>
+    <label>
+        <span>Zona</span>
+        <select ng-model="query.area" ng-options="area for area in query.city.children">
+            <option value="" selected></option>
+        </select>
+    </label>
+</p>
+
+<p>
+    <label>
+        <span>Capacitate</span>
+        <select ng-model="query.capacity" ng-options="capacity.name for capacity in meta.capacities">
+            <option value="" selected></option>
+        </select>
+    </label>
+</p>
+
+<a ui-sref="base.venues">Filtreaza</a>

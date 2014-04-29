@@ -1,13 +1,12 @@
 (function(undefined) {
     'use strict';
     
-    this.Base.controller('Home', [
+    this.Base.controller('Venues', [
         '$scope',
         'Venues',
         
         function($scope, venuesProvider) {
-            $scope.meta = venuesProvider.getMeta();
-            $scope.query = venuesProvider.getQuery();
+            $scope.venues = venuesProvider.get();
         }
     ]);
         

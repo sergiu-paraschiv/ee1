@@ -1,0 +1,20 @@
+<a ui-sref="base.home">Inapoi</a>
+
+<div><strong>{{venues.length}}</strong> rezultate</div>
+
+<div class="viewport" style="max-height: 600px;">
+    <div>
+        <div sf-virtual-repeat="venue in venues" style="height: 100px;">
+            <a ui-sref="base.venue({id: venue.id})">
+                <h2 ng-bind-html="venue.title"></h2>
+                
+                Capacitate: {{venue.capacity}} locuri
+                
+                <div ng-if="venue.images.length > 0">
+                    <img ng-src="{{venue.images[0]}}" alt="" width="30" height="30" />
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+

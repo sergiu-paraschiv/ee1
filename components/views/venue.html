@@ -1,0 +1,86 @@
+<a ui-sref="base.venues">Inapoi</a>
+
+<h1 ng-bind-html="venue.title"></h1>
+
+Capacitate: {{venue.capacity}} locuri
+
+<div ng-bind-html="venue.description">
+</div>
+
+<div ng-repeat="image in venue.images">
+    <img ng-src="{{image}}" alt="" width="200" height="200" />
+</div>
+
+<div ng-if="venue.map">
+    <img ng-src="{{venue.map}}" alt="" width="300" height="300" />
+</div>
+
+<form action="" ng-submit="submitContact()">
+    <p>
+        <label>
+            <span>Nume</span>
+            <input type="text" ng-model="contact.name" />
+        </label>
+    </p>
+    
+    <p>
+        <label>
+            <span>E-mail</span>
+            <input type="text" ng-model="contact.email" />
+        </label>
+    </p>
+    
+    <p>
+        <label>
+            <span>Phone</span>
+            <input type="text" ng-model="contact.phone" />
+        </label>
+    </p>
+    
+    <p>
+        <label>
+            <span>Perioada</span>
+        </label>
+    </p>
+    
+    <p>
+        <label>
+            <span>Luna</span>
+            <select ng-model="contact.month">
+                <option value=""></option>
+                <option value="1">Ianuarie</option>
+                <option value="2">Februarie</option>
+                <option value="3">Martie</option>
+                <option value="4">Aprilie</option>
+                <option value="5">Mai</option>
+                <option value="6">Iunie</option>
+                <option value="7">Iulie</option>
+                <option value="8">August</option>
+                <option value="9">Septembrie</option>
+                <option value="10">Octombrie</option>
+                <option value="11">Noiembrie</option>
+                <option value="12">Decembrie</option>
+            </select>
+        </label>
+    </p>
+    
+    <p>
+        <label>
+            <span>Anul</span>
+            <select ng-model="contact.year">
+                <option value=""></option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+            </select>
+        </label>
+    </p>
+    
+    <p>
+        <label>
+            <span>Numar persoane</span>
+            <input type="text" ng-model="contact.capacity" />
+        </label>
+    </p>
+    
+    <input type="submit" value="Trimite" />
+</div>
