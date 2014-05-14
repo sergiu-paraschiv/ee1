@@ -170,10 +170,12 @@ body {
 
 p.text input {
   width: 100%;
+  font-size: 40px;
 }
 
 p.select select {
   width: 100%;
+  font-size: 40px;
 }
 
 .button {
@@ -187,5 +189,15 @@ p.select select {
     
     .button {
       line-height: 30px;
+    }
+    
+    p.text input {
+      width: 100%;
+      font-size: 20px;
+    }
+
+    p.select select {
+      width: 100%;
+      font-size: 20px;
     }
 }
