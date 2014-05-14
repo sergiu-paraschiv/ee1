@@ -6,6 +6,7 @@
     "angular": "~1.2.16",
     "angular-ui-router": "~0.2.10",
     "fuse": "~1.1.0",
-    "angular-virtual-scroll": "~0.6.0"
+    "angular-virtual-scroll": "~0.6.0",
+    "bootstrap": "~3.0.2"
   }
 }
