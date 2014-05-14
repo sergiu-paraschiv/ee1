@@ -163,29 +163,29 @@ textarea:focus {
 select { width: 220px; }
 textarea { min-height: 60px; }
 label { display: inline; }
-legend {
-    display: block;
-    font-weight: bold;
-    font-size: 13px;  
-}
 
-label span,
-legend span {
-    font-weight: normal;
-    font-size: 13px;
-    color: #444; 
+body {
+  font-size: 40px;
 }
 
 p.text input {
   width: 100%;
-  font-size: 20px;
 }
 
 p.select select {
   width: 100%;
-  font-size: 20px;
 }
 
 .button {
-  line-height: 30px;
+  line-height: 60px;
+}
+
+@media (min-width: 960px) {
+    body {
+      font-size: 20px;
+    }
+    
+    .button {
+      line-height: 30px;
+    }
 }
