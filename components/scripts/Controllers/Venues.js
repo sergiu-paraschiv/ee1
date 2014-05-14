@@ -11,7 +11,7 @@
             
             $scope.listHeight = function() {
               return {
-                'maxHeight': ($window.innerHeight - 290) + 'px'
+                'maxHeight': ($window.innerHeight - 310) + 'px'
               }
             };
         }

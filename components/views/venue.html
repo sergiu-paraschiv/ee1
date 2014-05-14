@@ -13,9 +13,13 @@
 
 <div class="venuedetail">
   
+  <p class="bg-success" ng-show="success == true">
+    Mesaul tău a fost trimis!
+  </p>
+  
+  <h1 ng-bind-html="venue.title"></h1>
+  
   <div ng-show="tabs['description'] == true">
-    <h1 ng-bind-html="venue.title"></h1>
-
     <em>Capacitate: {{venue.capacity}} locuri</em>
 
     <div class="body" ng-bind-html="venue.description">

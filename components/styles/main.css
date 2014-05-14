@@ -238,6 +238,12 @@ nav ul li a:hover {
   color: #BB86B4;
 }
 
+.bg-success {
+  background-color: #DFF0D8;
+  padding: 10px;
+  text-align: center;
+}
+
 .ribbon-left,
 .ribbon-right {
   background-image: url('../images/ribbon-violet.png');
@@ -267,6 +273,7 @@ nav ul li a:hover {
 .results {
   font-size: 20px;
   padding: 10px 0 5px 0;
+  margin-bottom: 20px;
 }
 
 .venue {
@@ -315,12 +322,12 @@ nav ul li a:hover {
   font-size: 1em;
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .venuedetail em {
   font-size: 0.6em;
   display: block;
-  margin-top: 20px;
   padding: 0 10px;
 }
 

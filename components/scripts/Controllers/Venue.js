@@ -8,9 +8,10 @@
         '$stateParams',
         '$http',
         '$state',
+        '$timeout',
         'Venues',
         
-        function($scope, $stateParams, $http, $state, venuesProvider) {
+        function($scope, $stateParams, $http, $state, $timeout, venuesProvider) {
             var venueId = parseInt($stateParams.id);
             
             $scope.venue = venuesProvider.find(venueId);
@@ -24,11 +25,44 @@
                 capacity: null
             };
             
+            $scope.success = false;
+            
             function submitContact(contact) {
+              var success = function() {
+                $scope.success = true;
+                $scope.showTab('description');
+                
+                $timeout(function() {
+                  $scope.success = false;
+                }, 3000);
+              };
+              
               if(contact.$valid) {
-                $http.post(Config.CONTACT_URL, $scope.contact)
-                        .success(function() {
-                        });
+                var message = '';
+                message += 'Nume: ' + $scope.contact.name + "\n\n";
+                message += 'Telefon: ' + $scope.contact.phone + "\n\n";
+                message += 'Luna: ' + $scope.contact.month + "\n\n";
+                message += 'An: ' + $scope.contact.year + "\n\n";
+                message += 'Capacitate: ' + $scope.contact.capacity + "\n\n";
+                
+                var data = {
+                  'id_contact': 2,
+                  'from': $scope.contact.email,
+                  'id_order': 'Contact Aplicatie',
+                  'message': message
+                };
+                
+                var fd = new FormData();
+                _.each(data, function (value, key) {
+                  fd.append(key, value);
+                });
+
+                $http.post(Config.CONTACT_URL, fd, {
+                  headers:{
+                    'Content-Type': 'multipart/form-data'
+                  },
+                  transformRequest: fd
+                }).success(success);
               }
             }
             
