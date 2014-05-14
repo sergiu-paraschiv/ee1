@@ -1,86 +1,109 @@
-<a ui-sref="base.venues">Inapoi</a>
-
-<h1 ng-bind-html="venue.title"></h1>
-
-Capacitate: {{venue.capacity}} locuri
-
-<div ng-bind-html="venue.description">
+<div class="nav-wrapper">
+  <div class="ribbon-left"></div>
+  <nav id="main">
+    <ul>
+      <li><a class="back" href="" ng-click="goBack()">înapoi</a></li>
+      <li class="tab"><a href="" ng-click="showTab('contact')">cere oferta</a></li>
+      <li class="tab"><a href="" ng-click="showTab('images')">poze</a></li>
+      <li class="tab"><a href="" ng-click="showTab('description')">descriere</a></li>
+    </ul>
+  </nav>
+  <div class="ribbon-right"></div>
 </div>
 
-<div ng-repeat="image in venue.images">
-    <img ng-src="{{image}}" alt="" width="200" height="200" />
-</div>
+<div class="venuedetail">
+  
+  <div ng-show="tabs['description'] == true">
+    <h1 ng-bind-html="venue.title"></h1>
 
-<div ng-if="venue.map">
-    <img ng-src="{{venue.map}}" alt="" width="300" height="300" />
-</div>
+    <em>Capacitate: {{venue.capacity}} locuri</em>
 
-<form action="" ng-submit="submitContact()">
-    <p>
-        <label>
-            <span>Nume</span>
-            <input type="text" ng-model="contact.name" />
-        </label>
-    </p>
+    <div class="body" ng-bind-html="venue.description">
+    </div>
     
-    <p>
-        <label>
-            <span>E-mail</span>
-            <input type="text" ng-model="contact.email" />
-        </label>
-    </p>
-    
-    <p>
-        <label>
-            <span>Phone</span>
-            <input type="text" ng-model="contact.phone" />
-        </label>
-    </p>
-    
-    <p>
-        <label>
-            <span>Perioada</span>
-        </label>
-    </p>
-    
-    <p>
-        <label>
-            <span>Luna</span>
-            <select ng-model="contact.month">
-                <option value=""></option>
-                <option value="1">Ianuarie</option>
-                <option value="2">Februarie</option>
-                <option value="3">Martie</option>
-                <option value="4">Aprilie</option>
-                <option value="5">Mai</option>
-                <option value="6">Iunie</option>
-                <option value="7">Iulie</option>
-                <option value="8">August</option>
-                <option value="9">Septembrie</option>
-                <option value="10">Octombrie</option>
-                <option value="11">Noiembrie</option>
-                <option value="12">Decembrie</option>
-            </select>
-        </label>
-    </p>
-    
-    <p>
-        <label>
-            <span>Anul</span>
-            <select ng-model="contact.year">
-                <option value=""></option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-            </select>
-        </label>
-    </p>
-    
-    <p>
-        <label>
-            <span>Numar persoane</span>
-            <input type="text" ng-model="contact.capacity" />
-        </label>
-    </p>
-    
-    <input type="submit" value="Trimite" />
+    <a class="button" href="" ng-click="showTab('map')">Harta</a>
+    <a class="button" href="" ng-click="showTab('contact')">Cere oferta</a>
+  </div>
+  
+  <div ng-repeat="image in venue.images" ng-show="tabs['images'] == true">
+      <img ng-src="{{image}}" alt="" width="200" height="200" />
+  </div>
+
+  <div ng-if="venue.map" ng-show="tabs['map'] == true">
+      <img ng-src="{{venue.map}}" alt="" width="300" height="300" />
+  </div>
+
+  <form name="contact" action="" ng-submit="submitContact(contact)" ng-show="tabs['contact'] == true">
+      <p class="text">
+          <label>
+              <span>Nume</span>
+              <input type="text" ng-model="contact.name" required />
+          </label>
+      </p>
+      
+      <p class="text">
+          <label>
+              <span>E-mail</span>
+              <input type="email" ng-model="contact.email" required />
+          </label>
+      </p>
+      
+      <p class="text">
+          <label>
+              <span>Telefon</span>
+              <input type="text" ng-model="contact.phone" required />
+          </label>
+      </p>
+      
+      <p class="heading">
+          <label>
+              <span>Perioada</span>
+          </label>
+      </p>
+      
+      <p class="select">
+          <label>
+              <span>Luna</span>
+              <select ng-model="contact.month">
+                  <option value="1">Ianuarie</option>
+                  <option value="2">Februarie</option>
+                  <option value="3">Martie</option>
+                  <option value="4">Aprilie</option>
+                  <option value="5">Mai</option>
+                  <option value="6">Iunie</option>
+                  <option value="7">Iulie</option>
+                  <option value="8">August</option>
+                  <option value="9">Septembrie</option>
+                  <option value="10">Octombrie</option>
+                  <option value="11">Noiembrie</option>
+                  <option value="12">Decembrie</option>
+              </select>
+          </label>
+      </p>
+      
+      <p class="select">
+          <label>
+              <span>Anul</span>
+              <select ng-model="contact.year">
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+              </select>
+          </label>
+      </p>
+      
+      <p class="heading">
+          <label>
+              <span>&nbsp;</span>
+          </label>
+      </p>
+      
+      <p class="text">
+          <label>
+              <span>Număr persoane</span>
+              <input type="number" ng-model="contact.capacity" required />
+          </label>
+      </p>
+      
+      <a class="button" href="" ng-click="submitContact(contact)" ng-class="{'disabled': !contact.$valid}">Trimite</a>
+  </div>
 </div>

@@ -1,6 +1,6 @@
 body,
 h1, h2, h3, h4, h5, h6 {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -25,6 +25,7 @@ input:focus {
 ul {
   margin: 0;
   padding: 0;
+  
 }
 
 .container {
@@ -82,6 +83,14 @@ body .main .container {
   width: 532px;
 }
 
+nav#main > ul:before, nav#main > ul:after {
+    content: '';
+    width: 100%;
+    height: 6px;
+    display: block;
+    background: url('../images/menu-border.png') repeat-x top left;
+}
+
 footer .container {
   width: 640px;
   text-align: center;
@@ -95,8 +104,8 @@ input[type="reset"],
 input[type="button"] {
     padding: 6px 10px;
     display: inline-block;
-    color: #888;
-    background-color: #f4f4f4;
+    color: #fff;
+    background: rgba(187, 134, 180, 0.7);
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
@@ -111,10 +120,8 @@ input[type="button"] {
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
-input[type="button"]:hover {
-    color: #fff;
+input[type="button"]:hover {    
     box-shadow: inset 0px -1px 0px 0px rgba(0,0,0, 0.15);
-    background: rgba(187, 134, 180, 0.7);
 }
 
 form { margin-bottom: 20px; }
@@ -123,6 +130,7 @@ input[type="text"],
 input[type="search"],
 input[type="password"],
 input[type="email"],
+input[type="number"],
 textarea,
 select {
     border: 1px solid #e6e6e6;
@@ -151,6 +159,7 @@ input[type="text"]:focus,
 input[type="search"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
+input[type="number"]:focus,
 textarea:focus {
     border: 1px solid #aaa;
     color: #acacac;
@@ -161,7 +170,11 @@ textarea:focus {
 }
 
 textarea { min-height: 60px; }
-label { display: inline; }
+
+label span {
+  display: block;
+  margin-bottom: 5px;
+}
 
 body {
   font-size: 40px;
@@ -177,8 +190,146 @@ p.select select {
   font-size: 40px;
 }
 
+p.heading {
+  color: #666;
+  margin-top: 80px;
+  display: block;
+}
+
 .button {
   line-height: 60px;
+  text-align: center;
+  display: block;
+  margin: 10px 0;
+}
+
+.button.disabled {
+  background: rgba(204, 203, 204, 0.7);
+}
+
+input.ng-invalid {
+  border: 1px solid #E07D7D;
+}
+
+nav#main {
+  margin: 0 30px;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: #666;
+  font-size: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
+nav ul li a:hover {
+  color: #BB86B4;
+}
+
+.ribbon-left,
+.ribbon-right {
+  background-image: url('../images/ribbon-violet.png');
+}
+
+.ribbon-left {
+  position: absolute;
+  top: -3px;
+  left: -20px;
+  width: 41px;
+  height: 65px;
+}
+
+.nav-wrapper {
+  position: relative;
+}
+
+.ribbon-right {
+  position: absolute;
+  top: -3px;
+  right: -20px;
+  background-position: top right;
+  width: 41px;
+  height: 65px;
+}
+
+.results {
+  font-size: 20px;
+  padding: 10px 0 5px 0;
+}
+
+.venue {
+  height: 110px;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.venue a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+}
+
+.venue .image {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.venue .info {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+}
+
+.venue h2 {
+  display: block;
+  height: 20px;
+  overflow: hidden;
+  font-size: 1em;
+}
+
+.venue em {
+  font-size: 0.8em;
+  display: block;
+  margin-top: 15px;
+}
+
+.tab {
+  float: right;
+  margin: 0 10px;
+}
+
+.venuedetail h1 {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.venuedetail em {
+  font-size: 0.6em;
+  display: block;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.venuedetail .body {
+  font-size: 0.7em;
+  display: block;
+  margin-top: 20px;
+  padding: 0 10px;
 }
 
 @media (min-width: 960px) {
@@ -191,12 +342,30 @@ p.select select {
     }
     
     p.text input {
-      width: 100%;
+      width: 60%;
       font-size: 20px;
     }
 
     p.select select {
-      width: 100%;
+      width: 60%;
       font-size: 20px;
+    }
+    
+    .ribbon-left,
+    .ribbon-right {
+      top: -2px;
+    }
+    
+    nav ul li {
+      padding: 10px;
+    }
+    
+    nav ul li a {
+      font-size: 26px;
+      line-height: 26px;
+    }
+    
+    .tab {
+      margin: 0 3px;
     }
 }

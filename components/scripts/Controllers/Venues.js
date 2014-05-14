@@ -1,13 +1,20 @@
-(function(undefined) {
+(function(window, undefined) {
     'use strict';
     
     this.Base.controller('Venues', [
         '$scope',
+        '$window',
         'Venues',
         
-        function($scope, venuesProvider) {
+        function($scope, $window, venuesProvider) {
             $scope.venues = venuesProvider.get();
+            
+            $scope.listHeight = function() {
+              return {
+                'maxHeight': ($window.innerHeight - 290) + 'px'
+              }
+            };
         }
     ]);
         
-}).call(this.ee1);
+}).call(this.ee1, this);

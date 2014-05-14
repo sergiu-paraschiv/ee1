@@ -1,17 +1,27 @@
-<a ui-sref="base.home">Inapoi</a>
+<div class="nav-wrapper">
+  <div class="ribbon-left"></div>
+  <nav id="main">
+    <ul>
+      <li><a class="back" ui-sref="base.home">înapoi</a></li>
+    </ul>
+  </nav>
+  <div class="ribbon-right"></div>
+</div>
 
-<div><strong>{{venues.length}}</strong> rezultate</div>
+<div class="results"><strong>{{venues.length}}</strong> rezultate</div>
 
-<div class="viewport" style="max-height: 600px;">
+<div class="viewport" ng-style="listHeight()">
     <div>
-        <div sf-virtual-repeat="venue in venues" style="height: 100px;">
+        <div sf-virtual-repeat="venue in venues" class="venue">
             <a ui-sref="base.venue({id: venue.id})">
-                <h2 ng-bind-html="venue.title"></h2>
+                <div ng-if="venue.images.length > 0" class="image">
+                    <img ng-src="{{venue.images[0]}}" alt="" width="100" height="100" />
+                </div>
                 
-                Capacitate: {{venue.capacity}} locuri
-                
-                <div ng-if="venue.images.length > 0">
-                    <img ng-src="{{venue.images[0]}}" alt="" width="30" height="30" />
+                <div class="info">
+                  <h2 ng-bind-html="venue.title"></h2>
+                  
+                  <em>Capacitate: {{venue.capacity}} locuri</em>
                 </div>
             </a>
         </div>
