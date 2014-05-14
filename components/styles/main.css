@@ -213,7 +213,6 @@ input.ng-invalid {
 
 nav#main {
   margin: 0 30px;
-  
 }
 
 nav ul {
@@ -230,8 +229,8 @@ nav ul li {
 
 nav ul li a {
   color: #666;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 26px;
+  line-height: 26px;
   vertical-align: middle;
 }
 
