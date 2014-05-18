@@ -40,6 +40,10 @@ ul {
   
 }
 
+label {
+  display: block;
+}
+
 .container {
   width: 640px;
   padding-left: 0;
