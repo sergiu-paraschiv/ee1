@@ -6,7 +6,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  min-width: 640px;
+    min-width: 640px;
+}
+
+@-ms-viewport {
+    width: 640px;
+}
+
+@-o-viewport {
+    width: 640px;
+}
+
+@viewport {
+    width: 640px;
 }
 
 a,
