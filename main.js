@@ -1,3 +1,11 @@
+var DATA_CONFIG = {
+    INTRO_LENGTH: 7000,
+    CONTACT_URL: 'http://www.estudioespana.ro/shop/en/contact-us',
+    
+    BANNER_IMAGE: 'images/banner.jpg',
+    BANNER_LINK: 'http://www.estudioespana.ro/'
+};
+
 var DATA_ADDRESSES = [
     {
         name: 'Cluj',
