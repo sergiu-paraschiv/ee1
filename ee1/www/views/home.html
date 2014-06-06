@@ -8,8 +8,11 @@
 <p class="select">
     <label>
         <span>Județ</span>
-        <select ng-model="query.county" ng-options="county.name for county in meta.counties" ng-change="query.city = null; query.area = null">
-            <option value="" selected></option>
+        <select
+            ng-model="query.county"
+            ng-options="county.name for county in meta.counties"
+            ng-change="query.city = query.county.children[0]; query.area = null"
+        >
         </select>
     </label>
 </p>
@@ -17,8 +20,12 @@
 <p class="select">
     <label>
         <span>Oraș</span>
-        <select ng-model="query.city" ng-options="city.name for city in query.county.children" ng-disabled="!query.county.children.length" ng-change="query.area = null">
-            <option value="" selected></option>
+        <select
+            ng-model="query.city"
+            ng-options="city.name for city in query.county.children"
+            ng-disabled="!query.county.children.length"
+            ng-change="query.area = null"
+        >
         </select>
     </label>
 </p>
