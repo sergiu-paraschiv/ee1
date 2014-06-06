@@ -19,7 +19,7 @@
 
   <h1 ng-bind-html="venue.htmlTitle"></h1>
 
-  <div ng-show="tabs['description'] == true">
+  <div ng-show="tabs.description == true">
     <em>Capacitate: {{venue.capacity}} locuri</em>
 
     <div class="body" ng-bind-html="venue.htmlDescription">
@@ -29,17 +29,17 @@
     <a class="button" href="" ng-click="showTab('contact')">Cere oferta</a>
   </div>
 
-  <div class="gallery" ng-show="tabs['images'] == true && !$first">
+  <div class="gallery" ng-show="tabs.images == true && !$first">
     <div ng-repeat="image in venue.images">
         <img ng-src="{{image}}" alt="" />
     </div>
   </div>
 
-  <div class="map" ng-if="venue.map" ng-show="tabs['map'] == true">
+  <div class="map" ng-if="venue.map" ng-show="tabs.map == true">
       <a href="" ng-click="openMap(venue.mapLink)"><img ng-src="{{venue.map}}" alt="" /></a>
   </div>
 
-  <form name="contact" action="" ng-submit="submitContact(contact)" ng-show="tabs['contact'] == true">
+  <form name="contact" action="" ng-submit="submitContact(contact)" ng-show="tabs.contact == true">
       <p class="text">
           <label>
               <span>Nume</span>

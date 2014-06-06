@@ -84,7 +84,7 @@
             };
 
             $scope.goBack = function() {
-              if($scope.tabs['description'] === true)
+              if($scope.tabs.description === true)
               {
                 $state.go('base.venues');
               } else {
