@@ -123,7 +123,7 @@ var DATA_LOCATIONS = [
             "https://lh6.googleusercontent.com/-JZt6TPWDZ7M/U3MwHQHdxNI/AAAAAAAAACY/ZFQ5YKZILYc/s400/davinci3.jpg"
 
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.753007,23.611109,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?center=predeal,cluj-napoca,cluj&zoom=14&size=500x500&maptype=roadmap&markers=color:red|label:R|46.753007, 23.611109&sensor=false&maptype=roadmap"
     },
     {
@@ -140,7 +140,7 @@ var DATA_LOCATIONS = [
             "https://lh5.googleusercontent.com/-HQ4fwhttyik/U3MwIdI4ZCI/AAAAAAAAACo/KpzvLwlA__4/s400/grand2.jpg",
             "https://lh4.googleusercontent.com/-P9phh-z2KHk/U3MwJTIHYKI/AAAAAAAAACw/OmbDWcY7KiQ/s400/grand3.jpg"
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.752714,23.606046,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?center=vulcan,cluj-napoca,cluj&zoom=14&size=500x500&maptype=roadmap&markers=color:red|label:R|46.752714, 23.606046&sensor=false&maptype=roadmap"
     },
     {
@@ -612,7 +612,7 @@ var DATA_LOCATIONS = [
             "https://lh5.googleusercontent.com/-0u1AAZgPLWc/U3NZ0FHVAJI/AAAAAAAAALg/gPzOfdOp3Hc/s800/napoca.jpg",
             "https://lh3.googleusercontent.com/-YsO-YHFDYB4/U3Mws3B4PgI/AAAAAAAAAJo/cQfYKn56vfk/s400/napoca_atrium1.jpg",
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.771701,23.576267,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.771701, 23.576267&sensor=false&maptype=roadmap"
     },
     {
@@ -627,7 +627,7 @@ var DATA_LOCATIONS = [
             "https://lh5.googleusercontent.com/-0u1AAZgPLWc/U3NZ0FHVAJI/AAAAAAAAALg/gPzOfdOp3Hc/s800/napoca.jpg",
             "https://lh5.googleusercontent.com/-m1SX5SEDUvA/U3MwtnyHuRI/AAAAAAAAAJw/hU4ipPnYjSo/s400/napoca_f1.jpg",
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.771701,23.576267,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.771701, 23.576267&sensor=false&maptype=roadmap"
     },
     {
@@ -642,7 +642,7 @@ var DATA_LOCATIONS = [
             "https://lh5.googleusercontent.com/-0u1AAZgPLWc/U3NZ0FHVAJI/AAAAAAAAALg/gPzOfdOp3Hc/s800/napoca.jpg",
             "https://lh6.googleusercontent.com/-XtIpvOUhPXw/U3MwrhlwcQI/AAAAAAAAAJY/uSpTKZVcLJk/s400/napoca_ambasador1.jpg",
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.771701,23.576267,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.771701, 23.576267&sensor=false&maptype=roadmap"
     },
     {
@@ -661,7 +661,7 @@ var DATA_LOCATIONS = [
             "https://lh4.googleusercontent.com/-jc294WDQcpA/U3nHmrzA80I/AAAAAAAAAR8/I7pC1THRyyw/s800/sofia2.JPG"
 
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.788594,23.615074,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.788594, 23.615074&sensor=false&maptype=roadmap"
     },
     {
@@ -679,7 +679,7 @@ var DATA_LOCATIONS = [
             "https://lh6.googleusercontent.com/-Otcpk_XVuIU/U3nHgoZKE9I/AAAAAAAAAPI/2oODdL9S1HM/s400/imperial3.jpg"
 
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.784032,23.640761,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.784032, 23.640761&sensor=false&maptype=roadmap"
     },
     {
@@ -696,7 +696,7 @@ var DATA_LOCATIONS = [
             "https://lh3.googleusercontent.com/-kMzyPgSkVQQ/U3nHjpM__II/AAAAAAAAARA/gveTeGBotUU/s400/pedagogic2.jpg",
             "https://lh5.googleusercontent.com/-e7S8xtHZAn4/U3nHj5rA4eI/AAAAAAAAAP8/2liZBFNKwcc/s400/pedagogic3.jpg"
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.771666,23.628972,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.771666,23.628972&sensor=false&maptype=roadmap"
     },
     {
@@ -713,7 +713,7 @@ var DATA_LOCATIONS = [
             "https://lh5.googleusercontent.com/-c--8W479KhQ/U3nHpgRtFpI/AAAAAAAAARo/R1OgRr8fQYo/s400/talisman2.jpg",
             "https://lh6.googleusercontent.com/-4haEEhcDTuY/U3nHqA8UJTI/AAAAAAAAAR4/NeCcT6Piap4/s400/talisman3.jpg"
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.754136,23.584892,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.754136, 23.584892&sensor=false&maptype=roadmap"
     },
     {
@@ -730,7 +730,7 @@ var DATA_LOCATIONS = [
             "https://lh3.googleusercontent.com/-pdK-a3k8puI/U3nHiccMeQI/AAAAAAAAASI/my8q_07RKHU/s400/mures2.jpg",
             "https://lh6.googleusercontent.com/-ZgGabStxdoU/U3nHiy21xzI/AAAAAAAAASI/FgBRkz9NLQ8/s400/mures3.jpg"
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.784369,23.559564,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.784369, 23.559564&sensor=false&maptype=roadmap"
     },
     {
@@ -747,7 +747,7 @@ var DATA_LOCATIONS = [
             "https://lh3.googleusercontent.com/-uP68HP-4tMw/U3nHlBclvHI/AAAAAAAAAQY/lT5GIqu53Tk/s400/premier2.jpg",
             "https://lh6.googleusercontent.com/-3K_kNJG97C8/U3nHlaAPBKI/AAAAAAAAAQc/RFnTT-cmr9c/s800/premier3.jpg"
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.771098,23.552023,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.771098, 23.552023&sensor=false&maptype=roadmap"
     },
     {
@@ -763,7 +763,7 @@ var DATA_LOCATIONS = [
             "https://lh5.googleusercontent.com/-s0Kgymb6hOE/U3nHfJIv2zI/AAAAAAAAAOo/OtjdoZ6YSYQ/s400/bonjour1.jpg",
             "https://lh5.googleusercontent.com/-j5cvMEe5Ies/U3nHfOkHnRI/AAAAAAAAAO4/QSu3Zi0dEMA/s400/bonjour2.jpg"
         ],
-        "mapLink" : "https://www.google.com/maps/@46.3533379,24.4217063,10z",
+        "mapLink" : "https://www.google.com/maps/@46.749212,23.603812,10z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.749212, 23.603812&sensor=false&maptype=roadmap"
     }
 
