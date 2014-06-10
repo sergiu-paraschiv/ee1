@@ -3,7 +3,7 @@
     CONTACT_URL: 'http://www.estudioespana.ro/shop/en/contact-us',
     
     INTRO_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/intro.gif',
-    BANNER_IMAGE: 'images/banner.jpg',
+    BANNER_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/banner.jpg',
     BANNER_LINK: 'http://www.estudioespana.ro/'
 };
 
