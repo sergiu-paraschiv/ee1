@@ -142,7 +142,7 @@ var DATA_LOCATIONS = [
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?center=vulcan,cluj-napoca,cluj&zoom=14&size=500x500&maptype=roadmap&markers=color:red|label:R|46.752714, 23.606046&sensor=false&maptype=roadmap"
     },
     {
-        "id": 1111111112,
+        "id": 1111111110,
         "title": "Restaurant View",
         "description": "View Restaurant & Ballroom este o locatie unica in Cluj-Napoca, oferind o panorama superba clientilor sai. Indiferent de anotimp, poti admira zi si noapte intregul oras chiar din mijlocul lui, privelistea fiind deosebita.<br/> Aresa: Piata Mihai Viteazul, Multiplex Leul, etaj 7<br/> Telefon:0755120005 ",
         "capacity": 250,
