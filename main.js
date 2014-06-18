@@ -729,6 +729,146 @@ var DATA_LOCATIONS = [
         ],
         "mapLink" : "https://www.google.com/maps/@46.749212,23.603812,17z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.749212, 23.603812&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111151,
+        "title": "Cantina Agronomia",
+        "description": "Cluj-Napoca, Str. Motilor nr. 74-76",
+        "capacity": 120 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Centru",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.765630,23.577682,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.765630,23.577682&sensor=false&maptype=roadmap"
+    } ,
+    {
+        "id": 1111111152,
+        "title": "Armonia Edelweis",
+        "description": "Restaurantul Armonia din Cluj-Napoca, vă oferă posibilitatea organizării de nunţi, într-un spatiu generos, dotat cu aer condiţionat, cu o capacitate de maxim 260 locuri.<br/> Aresa:str. Tudor Vladimirescu, nr. 2-4, Cluj-Napoca, Cluj<br/> Telefon: 0723577270",
+        "capacity": 260 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Dâmbul Rotund",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.782403,23.565111,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.782403,23.565111&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111153,
+        "title": "Sara Events",
+        "description": "<br/> Aresa:Calea Turzii nr. 295, Cluj-Napoca, Cluj<br/> Telefon: 0264598777",
+        "capacity": 280 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Buna Ziua",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.731023,23.605486,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.731023,23.605486&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111154,
+        "title": "Athos",
+        "description": "<br/> Aresa:Str. Becas nr. 42, Cluj-Napoca, Cluj<br/> Telefon: 0264449777",
+        "capacity": 110 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Buna Ziua",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.753723,23.611845,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.753723,23.611845&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111155,
+        "title": "Expand Catering",
+        "description": "Echipa Expand – prin profesionalism, seriozitate, daruire – este alaturi de tinerii clienti in organizarea acestui moment unic al vietii lor.<br/> Aresa: str. Mehedinti, nr. 82, Cluj-Napoca, Cluj<br/> Telefon: 0728907888",
+        "capacity": 250 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Manastur",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.750627,23.561756,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.750627,23.561756&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111156,
+        "title": "Restaurant Belvedere",
+        "description": "Fie ca e nunta sau botez, aniversare sau intalnire familiara personalul restaurantului va asigura servicii de cea mai buna calitate si preparate dintre cele mai variate.<br/> Aresa: str. Calarasilor nr.1, Cluj-Napoca, Cluj<br/> Telefon:0264432071",
+        "capacity": 180 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Gruia",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.774216,23.581790,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.774216,23.581790&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111157,
+        "title": "Restaurant Boema - Salonul Art",
+        "description": "Boema Evenimente doreste sa-ti vina in intampinare cu spiritul sau creativ in organizarea unor evenimente de neuitat. Cum fiecare om are o amprenta unica asa si fiecare eveniment este elaborat si organizat intr-un mod unic.<br/> Aresa: str. Taberei, nr. 4, Cluj-Napoca, Cluj<br/> Telefon:0364566747",
+        "capacity": 250 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Manastur",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.761377,23.553578,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.761377,23.553578&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111158,
+        "title": "Restaurant Boema - Salonul Evenimente",
+        "description": "Boema Evenimente doreste sa-ti vina in intampinare cu spiritul sau creativ in organizarea unor evenimente de neuitat. Cum fiecare om are o amprenta unica asa si fiecare eveniment este elaborat si organizat intr-un mod unic.<br/> Aresa: str. Taberei, nr. 4, Cluj-Napoca, Cluj<br/> Telefon:0364566747",
+        "capacity": 450 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Manastur",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.761377,23.553578,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.761377,23.553578&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111159,
+        "title": "Casa de Piatra Bistro",
+        "description": "Restaurantul nostru este alegerea ideala pentru organizarea celor mai fericite evenimente din viata dumneavoastra.Confortul, eleganta, calitatea serviciilor reprezinta Bistro Casa de Piatra, locatia ideala pentru organizarea de nunti, mese festive, petreceri, zile onomastice, sau orice alt eveniment.<br/> Aresa: Tabacarilor 12, Cluj-Napoca, Cluj<br/> Telefon:0745588257",
+        "capacity": 300 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Iris",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.788862,23.608280,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.788862,23.608280&sensor=false&maptype=roadmap"
+    },
+    {
+        "id": 1111111160,
+        "title": "Casa Zanelor",
+        "description": "Serviciile de cea mai bună calitate plus ambianţa deosebită garantează reuşita evenimentului. Sala este dotată cu aer condiţionat, cu sistem de sonorizare profesional, sistem audio-video, etc. Vă așteptăm să petreceţi clipe de neuitat într-un decor de poveste.<br/> Aresa: Str. Sportului nr. 5, Floresti, Cluj<br/> Telefon:0364113364",
+        "capacity": 300 ,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Floresti",
+        "images": [
+            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.748626,23.474552,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.748626,23.474552&sensor=false&maptype=roadmap"
     }
 
 ];
