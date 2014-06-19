@@ -753,7 +753,9 @@ var DATA_LOCATIONS = [
         "city": "Cluj-Napoca",
         "area": "Dâmbul Rotund",
         "images": [
-            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+            "https://lh3.googleusercontent.com/-RHGM1Uqxb5c/U6K7v5W15RI/AAAAAAAAAS0/L8U44Vxn_rs/s800/armonia1.JPG",
+            "https://lh4.googleusercontent.com/-3GjaOMC2nYI/U6K7v6a2OSI/AAAAAAAAATI/gMahcTZWxmo/s800/armonia2.JPG",
+            "https://lh4.googleusercontent.com/-17O1iwGq4Eo/U6K7v_-GNfI/AAAAAAAAASk/k0_i_-2yHZQ/s800/armonia3.JPG"
         ],
         "mapLink" : "https://www.google.com/maps/@46.782403,23.565111,17z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.782403,23.565111&sensor=false&maptype=roadmap"
@@ -809,7 +811,9 @@ var DATA_LOCATIONS = [
         "city": "Cluj-Napoca",
         "area": "Gruia",
         "images": [
-            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+            "https://lh4.googleusercontent.com/-ggFagg1YeRU/U6K7wdhQb8I/AAAAAAAAATw/e8xgjhdj73A/s800/belvedere1.jpg",
+            "https://lh6.googleusercontent.com/-5A0WLcbn8ck/U6K7wgyx08I/AAAAAAAAASw/2JdWTIDK3ps/s800/belvedere2.jpg",
+            "https://lh6.googleusercontent.com/-oHhoFOd0xWg/U6K7w-YkGMI/AAAAAAAAAS4/Zv77ycd0JSI/s800/belvedere3.jpg"
         ],
         "mapLink" : "https://www.google.com/maps/@46.774216,23.581790,17z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.774216,23.581790&sensor=false&maptype=roadmap"
@@ -851,7 +855,9 @@ var DATA_LOCATIONS = [
         "city": "Cluj-Napoca",
         "area": "Iris",
         "images": [
-            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+            "https://lh4.googleusercontent.com/-65gleMbTi1A/U6K7xQQYbxI/AAAAAAAAATM/awGAeqg-Nws/s800/bistro1.jpg",
+            "https://lh3.googleusercontent.com/-m4c9m0YuMPc/U6K7xTh7qMI/AAAAAAAAATE/ulGkYY6fIoU/s800/bistro2.JPG",
+            "https://lh6.googleusercontent.com/-4hmFDz-7w-E/U6K7yk-5zyI/AAAAAAAAATc/k15siXaECo8/s800/bistro3.JPG"
         ],
         "mapLink" : "https://www.google.com/maps/@46.788862,23.608280,17z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.788862,23.608280&sensor=false&maptype=roadmap"
@@ -865,7 +871,10 @@ var DATA_LOCATIONS = [
         "city": "Cluj-Napoca",
         "area": "Floresti",
         "images": [
-            "https://lh6.googleusercontent.com/-4a8BmKpamC8/U3nDHHTMgqI/AAAAAAAAAOU/tQ5-_zB0L34/s800/no_image.jpg"
+            "https://lh5.googleusercontent.com/-Yodc8ooH7bE/U6K7ygDQouI/AAAAAAAAATk/rG6TRdCkZx8/s800/zane1.jpg",
+            "https://lh5.googleusercontent.com/-B5Am7ZYrUds/U6K7zGiOegI/AAAAAAAAAT0/oohxapxUGPU/s800/zane2.jpg",
+            "https://lh3.googleusercontent.com/-E0W2w4kTaZI/U6K7zdO7trI/AAAAAAAAATo/9HkLJz5JLOo/s800/zane3.jpg"
+        
         ],
         "mapLink" : "https://www.google.com/maps/@46.748626,23.474552,17z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.748626,23.474552&sensor=false&maptype=roadmap"
