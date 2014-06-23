@@ -129,7 +129,7 @@ var DATA_LOCATIONS = [
         "id": 1111111137,
         "title": "Hotel Pami",
         "description": "Alegerea si rezervarea salii de restaurant, reprezinta primul si cel mai important pas in organizarea unei nunti. Restaurantul Pami va pune la dispozitie una din cele mai moderne sali de nunti din Cluj–Napoca.<br/> Aresa: Calea Manastur,nr. 39, Cluj-Napoca, Cluj<br/> Telefon: 0264406333",
-        "capacity": 200,
+        "capacity": 150,
         "county": "Cluj",
         "city": "Cluj-Napoca",
         "area": "Manastur",
