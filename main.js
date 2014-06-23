@@ -126,6 +126,22 @@ var DATA_LOCATIONS = [
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?center=predeal,cluj-napoca,cluj&zoom=14&size=500x500&maptype=roadmap&markers=color:red|label:R|46.753007, 23.611109&sensor=false&maptype=roadmap"
     },
     {
+        "id": 1111111137,
+        "title": "Hotel Pami",
+        "description": "Alegerea si rezervarea salii de restaurant, reprezinta primul si cel mai important pas in organizarea unei nunti. Restaurantul Pami va pune la dispozitie una din cele mai moderne sali de nunti din Cluj–Napoca.<br/> Aresa: Calea Manastur,nr. 39, Cluj-Napoca, Cluj<br/> Telefon: 0264406333",
+        "capacity": 200,
+        "county": "Cluj",
+        "city": "Cluj-Napoca",
+        "area": "Manastur",
+        "images": [
+            "https://lh4.googleusercontent.com/-nk7oSmzYkak/U3Mwpmg6AJI/AAAAAAAAAJA/ukmZ7ig2Gd4/s400/pami1.jpg",
+            "https://lh3.googleusercontent.com/-z3V5ZfDE1EM/U3MwqekyjLI/AAAAAAAAAJI/m4afUY7hFoc/s400/pami2.jpg",
+            "https://lh6.googleusercontent.com/-zwtWfoVQL1U/U3MwrIuWH-I/AAAAAAAAAJQ/D3IPqD8__bE/s400/pami3.jpg"
+        ],
+        "mapLink" : "https://www.google.com/maps/@46.761306,23.567164,17z",
+        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.761306, 23.567164&sensor=false&maptype=roadmap"
+    },
+    {
         "id": 1111111112,
         "title": "Grand Hotel Italia",
         "description": "Grand Hotel Italia este locul ideal pentru a celebra un moment atat de frumos din viata Dumneavoastra precum este ziua nuntii.Eleganta spatiilor interioare si exterioare vor transforma acest eveniment intr-unul de neuitat. Impactul nu va fi doar unul estetic dar si unul senzorial dirijat de ultimele tendinte ale culturii gastronomice moderne. Competenta si profesionalismul personalului sunt garantia succesului nuntii Dumneavoastra.<br/> Aresa: Strada Trifoiului 2<br/> Telefon:0364111333",
@@ -515,22 +531,6 @@ var DATA_LOCATIONS = [
         ],
         "mapLink" : "https://www.google.com/maps/@46.749186,23.593691,17z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.749186, 23.593691&sensor=false&maptype=roadmap"
-    },
-    {
-        "id": 1111111137,
-        "title": "Hotel Pami",
-        "description": "Alegerea si rezervarea salii de restaurant, reprezinta primul si cel mai important pas in organizarea unei nunti. Restaurantul Pami va pune la dispozitie una din cele mai moderne sali de nunti din Cluj–Napoca.<br/> Aresa: Calea Manastur,nr. 39, Cluj-Napoca, Cluj<br/> Telefon: 0264406333",
-        "capacity": 200,
-        "county": "Cluj",
-        "city": "Cluj-Napoca",
-        "area": "Manastur",
-        "images": [
-            "https://lh4.googleusercontent.com/-nk7oSmzYkak/U3Mwpmg6AJI/AAAAAAAAAJA/ukmZ7ig2Gd4/s400/pami1.jpg",
-            "https://lh3.googleusercontent.com/-z3V5ZfDE1EM/U3MwqekyjLI/AAAAAAAAAJI/m4afUY7hFoc/s400/pami2.jpg",
-            "https://lh6.googleusercontent.com/-zwtWfoVQL1U/U3MwrIuWH-I/AAAAAAAAAJQ/D3IPqD8__bE/s400/pami3.jpg"
-        ],
-        "mapLink" : "https://www.google.com/maps/@46.761306,23.567164,17z",
-        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=15&size=500x500&maptype=roadmap&markers=color:red|label:R|46.761306, 23.567164&sensor=false&maptype=roadmap"
     },
     {
         "id": 1111111138,
