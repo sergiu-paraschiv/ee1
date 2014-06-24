@@ -3,12 +3,12 @@ var DATA_CONFIG = {
     INTRO_LENGTH: 7000,
     CONTACT_URL: 'http://estudioespana.ro/app/mailer/index.php',
 
-    INTRO_IMAGE: 'https://raw.githack.com/sergiu-paraschiv/ee1/data/intro.gif',
+    INTRO_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/intro.gif',
 
-    BANNER_IMAGE: 'https://raw.githack.com/sergiu-paraschiv/ee1/data/banner.jpg',
+    BANNER_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/banner.jpg',
     BANNER_LINK: 'http://www.estudioespana.ro/',
 
-    HEADER_IMAGE: 'https://raw.githack.com/sergiu-paraschiv/ee1/data/banner-top.png',
+    HEADER_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/banner-top.png',
     HEADER_LINK: 'tel:+40264236189'
 };
 
