@@ -1,11 +1,11 @@
 (function(ng, undefined) {
     'use strict';
-   
+
     var module = ng.module('Base', [
         'ui.router',
         'sf.virtualScroll'
     ]);
-    
+
     module.config(function($stateProvider, $urlRouterProvider) {
         $urlRouterProvider.otherwise('/');
 
@@ -14,13 +14,18 @@
                 url: '',
                 abstract: true,
                 views: {
+                    'header': {
+                        templateUrl: 'views/header.html',
+                        controller: 'Header'
+                    },
+
                     'footer': {
                         templateUrl: 'views/footer.html',
                         controller: 'Footer'
                     }
                 }
             })
-            
+
             .state('base.intro', {
                 url: '/',
                 views: {
@@ -31,7 +36,7 @@
                     'footer@': {
                         templateUrl: 'views/blank.html'
                     }
-                }    
+                }
             })
 
             .state('base.home', {
@@ -41,9 +46,9 @@
                         templateUrl: 'views/home.html',
                         controller: 'Home'
                     }
-                }    
+                }
             })
-            
+
             .state('base.venues', {
                 url: '/venues',
                 views: {
@@ -53,7 +58,7 @@
                     }
                 }
             })
-            
+
             .state('base.venue', {
                 url: '/venue/:id',
                 views: {
@@ -61,10 +66,10 @@
                         templateUrl: 'views/venue.html',
                         controller: 'Venue'
                     }
-                }    
+                }
             });
     });
-    
+
     this.extend('Base', module);
 
 }).call(this.ee1, this.angular);
