@@ -1,10 +1,14 @@
                                                                                                                                          var DATA_CONFIG = {
     INTRO_LENGTH: 7000,
     CONTACT_URL: 'http://www.estudioespana.ro/shop/en/contact-us',
-    
+
     INTRO_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/intro.gif',
+
     BANNER_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/banner.jpg',
-    BANNER_LINK: 'http://www.estudioespana.ro/'
+    BANNER_LINK: 'http://www.estudioespana.ro/',
+
+    HEADER_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/banner-top.jpg',
+    HEADER_LINK: 'tel:+40264236189'
 };
 
 var DATA_ADDRESSES = [
@@ -874,7 +878,7 @@ var DATA_LOCATIONS = [
             "https://lh5.googleusercontent.com/-Yodc8ooH7bE/U6K7ygDQouI/AAAAAAAAATk/rG6TRdCkZx8/s800/zane1.jpg",
             "https://lh5.googleusercontent.com/-B5Am7ZYrUds/U6K7zGiOegI/AAAAAAAAAT0/oohxapxUGPU/s800/zane2.jpg",
             "https://lh3.googleusercontent.com/-E0W2w4kTaZI/U6K7zdO7trI/AAAAAAAAATo/9HkLJz5JLOo/s800/zane3.jpg"
-        
+
         ],
         "mapLink" : "https://www.google.com/maps/@46.748626,23.474552,17z",
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?zoom=16&size=500x500&maptype=roadmap&markers=color:red|label:R|46.748626,23.474552&sensor=false&maptype=roadmap"
