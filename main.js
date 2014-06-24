@@ -1,4 +1,5 @@
-                                                                                                                                         var DATA_CONFIG = {
+var DATA_CONFIG = {
+                                                                                                                                         
     INTRO_LENGTH: 7000,
     CONTACT_URL: 'http://www.estudioespana.ro/shop/en/contact-us',
 
