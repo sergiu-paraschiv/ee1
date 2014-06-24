@@ -118,7 +118,14 @@ footer .container {
   margin: 20px auto 0 auto;
 }
 
-footer .container .banner {
+header .container {
+  width: 640px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer .container .banner,
+header .container .banner {
   width: 100%;
 }
 

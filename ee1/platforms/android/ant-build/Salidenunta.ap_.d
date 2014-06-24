@@ -21,7 +21,6 @@ D:\Development\ee1\app\ee1\platforms\android\assets\www\libs \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\styles \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\views \
-D:\Development\ee1\app\ee1\platforms\android\assets\www\images\banner.jpg \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\images\bg.png \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\images\contentbg.png \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\images\hfbg.png \
@@ -54,6 +53,7 @@ D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Models \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Modules \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Services \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Controllers\Footer.js \
+D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Controllers\Header.js \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Controllers\Home.js \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Controllers\Intro.js \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Controllers\Venue.js \
@@ -65,6 +65,7 @@ D:\Development\ee1\app\ee1\platforms\android\assets\www\scripts\Services\Venues.
 D:\Development\ee1\app\ee1\platforms\android\assets\www\styles\main.css \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\views\blank.html \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\views\footer.html \
+D:\Development\ee1\app\ee1\platforms\android\assets\www\views\header.html \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\views\home.html \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\views\intro.html \
 D:\Development\ee1\app\ee1\platforms\android\assets\www\views\venue.html \
