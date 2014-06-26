@@ -38,31 +38,7 @@
               };
 
               if(contact.$valid) {
-                var message = '';
-                message += 'Nume: ' + $scope.contact.name + "\n\n";
-                message += 'Telefon: ' + $scope.contact.phone + "\n\n";
-                message += 'Luna: ' + $scope.contact.month + "\n\n";
-                message += 'An: ' + $scope.contact.year + "\n\n";
-                message += 'Capacitate: ' + $scope.contact.capacity + "\n\n";
-
-                var data = {
-                  'id_contact': 2,
-                  'from': $scope.contact.email,
-                  'id_order': 'Contact Aplicatie',
-                  'message': message
-                };
-
-                var fd = new FormData();
-                _.each(data, function (value, key) {
-                  fd.append(key, value);
-                });
-
-                $http.post(Config.CONTACT_URL, fd, {
-                  headers:{
-                    'Content-Type': 'multipart/form-data'
-                  },
-                  transformRequest: fd
-                }).success(success);
+                $http.post(Config.CONTACT_URL, $scope.contact).success(success);
               }
             }
 
