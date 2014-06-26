@@ -1,7 +1,7 @@
 var DATA_CONFIG = {
 
     INTRO_LENGTH: 7000,
-    CONTACT_URL: 'http://estudioespana.ro/app/mailer/index.php',
+    CONTACT_URL: 'http://beta.cluj4all.com/mailer/index.php',
 
     INTRO_IMAGE: 'https://rawgit.com/sergiu-paraschiv/ee1/data/intro.gif',
 
