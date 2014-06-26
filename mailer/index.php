@@ -12,11 +12,17 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     die;
 }
 
-$data = substr(var_export($_POST, true), 0, 3000);
+$data = json_decode(file_get_contents('php://input'), true);
 
-$f = fopen('mails.log.txt', 'a+');
+foreach($data as $k => $v) {
+  $data[$k] = substr($v, 0, 3000);
+}
 
-fwrite($f, '>>> ' . date('d-m-y H:i:s') . PHP_EOL);
-fwrite($f, '>>> ' . $data  . PHP_EOL . PHP_EOL);
+$data = array_values($data);
+array_unshift($data, date('d-m-y H:i:s'));
+
+$f = fopen('mails.log.csv', 'a+');
+
+fputcsv($f, $data);
 
 fclose($f);

@@ -35,6 +35,9 @@
                     },
                     'footer@': {
                         templateUrl: 'views/blank.html'
+                    },
+                    'header@': {
+                        templateUrl: 'views/blank.html'
                     }
                 }
             })
