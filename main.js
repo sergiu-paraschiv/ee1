@@ -163,7 +163,7 @@ var DATA_LOCATIONS = [
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?center=vulcan,cluj-napoca,cluj&zoom=14&size=500x500&maptype=roadmap&markers=color:red|label:R|46.752714, 23.606046&sensor=false&maptype=roadmap"
     },
     {
-        "id": 1111111110,
+        "id": 1111111109,
         "title": "Restaurant Bellagio - Opera Plaza",
         "description": "Recunoscut pe piata clujeana pentru preparatele delicioase si serviciile de cel mai inalt nivel, Restaurantul Bellagio este alegerea eleganta pentru nuntasii care prefera rafinament intr-un cadru intim. Dispunand de o capacitate de 250 de persoane, Restaurantul Bellagio ofera o adevarata experienta culinara, antrenand toate simturile intr-o explozie de gust si culoare intr-o atmosfera deosebita.<br/> Aresa: Str.G-ral Traian Mosoiu Nr.10 -12 <br/> Telefon:0364403602",
         "capacity": 250,
