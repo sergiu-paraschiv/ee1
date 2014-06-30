@@ -195,22 +195,6 @@ var DATA_LOCATIONS = [
         "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?center=arges,cluj-napoca,cluj&zoom=14&size=500x500&maptype=roadmap&markers=color:red|label:R|46.774157, 23.593890&sensor=false&maptype=roadmap"
     },
     {
-        "id": 1111111109,
-        "title": "Restaurant Bellagio - Opera Plaza",
-        "description": "Recunoscut pe piata clujeana pentru preparatele delicioase si serviciile de cel mai inalt nivel, Restaurantul Bellagio este alegerea eleganta pentru nuntasii care prefera rafinament intr-un cadru intim. Dispunand de o capacitate de 250 de persoane, Restaurantul Bellagio ofera o adevarata experienta culinara, antrenand toate simturile intr-o explozie de gust si culoare intr-o atmosfera deosebita.<br/> Aresa: Str.G-ral Traian Mosoiu Nr.10 -12 <br/> Telefon:0364403602",
-        "capacity": 250,
-        "county": "Cluj",
-        "city": "Cluj-Napoca",
-        "area": "Gheorgheni",
-        "images": [
-            "https://lh5.googleusercontent.com/-sild9KeQEPI/U7Fw-eTCLEI/AAAAAAAAAUU/-j8xpVevT2Y/s800/Bellagio%25201.jpg",
-            "https://lh6.googleusercontent.com/-WKN9qOOcvps/U7Fw-b_XXUI/AAAAAAAAAUQ/o9smjQ2NZ28/s800/Bellagio%25202.jpg",
-            "https://lh5.googleusercontent.com/-EV0o4K2xmPs/U7Fw-fKKr5I/AAAAAAAAAUY/SCVFqjHYvaA/s800/Bellagio%25204.jpg"
-        ],
-        "mapLink" : "https://www.google.com/maps/@46.768881,23.600583,17z",
-        "map": "http:\/\/maps.googleapis.com\/maps\/api\/staticmap?center=arges,cluj-napoca,cluj&zoom=14&size=500x500&maptype=roadmap&markers=color:red|label:R|46.768881, 23.600583&sensor=false&maptype=roadmap"
-    },
-    {
         "id": 1111111113,
         "title": "Coratim Events Hall",
         "description": " Intr-o design clasic si elegant Coratim Events Hall va poate garanta servicii ireprosabile pentru organizarea de conferinte, nunti, botezuri, prezentari, concerte, simpozioane, congrese sau petreceri corporate.<br/> Aresa: Str. Campul Painii, Nr. 3-5<br/> Telefon: 0731018371, 0264432343",
